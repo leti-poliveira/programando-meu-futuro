@@ -1,0 +1,27 @@
+inicio.css
+#inicio{
+    width: 100%;
+    height: 800px; /* temporário */
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+    padding-top: 150px;
+}
+
+.inicioApresentacao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 150px;
+    gap: 50px; /* Uma propriedade que cria um espaçamento entre os filhos, quando se usa flexbox. */
+}
+
+.inicioApresentacao span{
+    font-size: var(--fonteParagrafo);
+}
+.inicioApresentacao h1{
+    font-size: var(--fonteTitulo);
+}
+
+.inicioApresentacao p{
+    font-size: var(--fonteDetalhe);
+}
